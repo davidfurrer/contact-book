@@ -1,0 +1,26 @@
+.contactContainer {
+  width: 100%;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  // background-color: blue;
+
+  ul {
+    list-style: none;
+  }
+
+  .buttonsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    #deleteButton {
+      color: red;
+    }
+
+    #editButton {
+      color: rgb(36, 157, 197);
+    }
+  }
+}
